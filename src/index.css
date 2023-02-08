@@ -1,0 +1,39 @@
+::-webkit-scrollbar{
+  width: 1px;
+}
+::-webkit-scrollbar-track{
+  background-color: #fcfcfc;
+  width: 1px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(233, 233, 233);
+}
+*{
+  box-sizing: border-box;
+  font-family: 'Julius Sans One', 'open sans', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  margin: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  width: 100vw;
+}
+
+.link {
+  text-decoration: none;
+  color: #111;
+}
+.link:hover {
+  color: #1775e5;
+}
+.link:active {
+  text-decoration: underline;
+}

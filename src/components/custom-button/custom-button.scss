@@ -1,0 +1,36 @@
+.custom-button {
+    min-width: 165px;
+    width: auto;
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    .button-img {
+       width: 30px;
+       height: 30px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-left: 10px;
+       padding: 5px;
+       background-color: #fff;
+       border-radius: 50%;
+    }
+    &:hover {
+      background: linear-gradient(to left, #4291f1, #0575ff);
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+  }

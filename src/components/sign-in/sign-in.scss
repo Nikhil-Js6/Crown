@@ -1,0 +1,23 @@
+.signin {
+    width: 50%;
+    padding: 35px 90px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    border: 1px solid transparent;
+    .title {
+        margin: 10px 0;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .button-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &:hover {
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+.collection-item {
+    // width: 23%;
+    flex: 1;
+    min-width: 320px;
+    height: 350px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    .image {
+        width: 100%;
+        height: 95%;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 10px;
+        &:hover {
+            transform: scale(1.5);
+            transition: transform 2s cubic-bezier(.25, .45, .75, .95);
+        }
+    }
+    .item-footer {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+  
+        .name {
+            width: 90%;
+            margin-bottom: 15px;
+        }
+        .price {
+            width: 10%;
+        }
+    }
+}
